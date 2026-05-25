@@ -137,7 +137,7 @@ export default function AboutPage() {
               <a href="mailto:viviintansari2005@gmail.com" className="hover:-translate-y-1 transition-transform">
                 <img src={emailIcon} alt="Email" className="w-8 h-8 xl:w-[40px] xl:h-[40px] object-contain" />
               </a>
-              <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" className="hover:-translate-y-1 transition-transform bg-[#e115bf] rounded-full p-2 flex items-center justify-center w-8 h-8 xl:w-[40px] xl:h-[40px]">
+              <a href="https://www.instagram.com/viin.ri/" target="_blank" rel="noreferrer" className="hover:-translate-y-1 transition-transform bg-[#e115bf] rounded-full p-2 flex items-center justify-center w-8 h-8 xl:w-[40px] xl:h-[40px]">
                 <img src={instagramIcon} alt="Instagram" className="w-full h-full object-contain" />
               </a>
               <a href="https://github.com/viviint" target="_blank" rel="noreferrer" className="hover:-translate-y-1 transition-transform">

@@ -30,7 +30,7 @@ const projectData: Record<string, Project> = {
     description:
       "Sehatin is a mobile application designed to help teenagers monitor and improve their mental and physical well-being through mood tracking, health education, community support, and professional consultation features.",
     mockup: sehatinMockup,
-    figmaLink: "https://www.figma.com/",
+    figmaLink: "https://www.figma.com/design/614d15UeZ115KA0WDWCuqy/Sehatin?node-id=332-2&t=7YWkPYvmgLgBServ-1/",
     tags: [
       { label: "Calm Visual Experience" },
       { label: "Positive Reinforcement" },
@@ -48,7 +48,7 @@ const projectData: Record<string, Project> = {
     description:
       "SkulSik is a mobile application designed to help parents find suitable schools efficiently using AI-based recommendations, location-based search, and online registration features. The app also provides information about special schools (SLB) for children with disabilities, making educational access more inclusive and accessible for different needs.",
     mockup: skulsikMockup,
-    figmaLink: "https://www.figma.com/",
+    figmaLink: "https://www.figma.com/design/TSTrTDIPjxHrKDtuDJEfPG/Main?node-id=605-1414&t=EUIxYb585im0l9H0-1/",
     tags: [
       { label: "Goal Oriented Experience" },
       { label: "Personalized School Discovery" },
