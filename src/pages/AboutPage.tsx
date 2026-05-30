@@ -1,23 +1,13 @@
 import Navbar from "../components/Navbar";
 import { useNavigate } from "react-router-dom";
-
-const profileImg =
-  "https://www.figma.com/api/mcp/asset/fd886144-48db-488e-a123-92f0ee81c744";
-const heroBg =
-  "https://www.figma.com/api/mcp/asset/0a7acb15-c152-473f-a54f-a644f8f0e1bf";
-const skulsikThumb =
-  "https://www.figma.com/api/mcp/asset/c65b0a35-4413-4665-807c-1f49d17b26ec";
-const serenityThumb =
-  "https://www.figma.com/api/mcp/asset/a6612808-9a91-4d05-8b41-2fca8827d1fa";
-
-const linkedinIcon =
-  "https://www.figma.com/api/mcp/asset/6aa3bde2-e833-4844-8bea-9661784b462e";
-const emailIcon =
-  "https://www.figma.com/api/mcp/asset/098cbe24-8c4d-4e64-b269-5ee134dc1f26";
-const instagramIcon =
-  "https://www.figma.com/api/mcp/asset/509210ec-c327-4831-8132-0a70b472e320";
-const githubIcon =
-  "https://www.figma.com/api/mcp/asset/d077e9e1-89fb-421e-b7dc-099cbec15679";
+import profileImg from "../assets/figma/about-hero.png";
+import heroBg from "../assets/figma/shared-bg-art.jpg";
+import skulsikThumb from "../assets/figma/about-gallery-1.png";
+import serenityThumb from "../assets/figma/about-gallery-2.png";
+import linkedinIcon from "../assets/figma/linkedin-icon.svg";
+import emailIcon from "../assets/figma/email-icon.svg";
+import instagramIcon from "../assets/figma/instagram-icon.svg";
+import githubIcon from "../assets/figma/github-icon.svg";
 
 const aboutText =
   "I'm an Information Systems undergraduate at Telkom University who enjoys understanding users, solving problems, and creating intuitive digital experiences through UI/UX design";

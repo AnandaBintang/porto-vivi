@@ -1,15 +1,13 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
-
-const bgArt =
-  "https://www.figma.com/api/mcp/asset/7d29344b-78ed-4b39-b74f-01f255c46225";
-const skulsikCover =
-  "https://www.figma.com/api/mcp/asset/f8f551ed-7c05-4dd7-928a-7117fc60ee5a";
-const sehatinCover =
-  "https://www.figma.com/api/mcp/asset/2c21bb18-7647-49a1-b8c5-c5fe6d9c1809";
-const serenityCover =
-  "https://www.figma.com/api/mcp/asset/6992c31e-96d1-457c-90fb-615e7fd9a38c";
+import bgArt from "../assets/figma/projects-bg-art.jpg";
+import skulsikCover from "../assets/figma/project-skulsik-mockup.png";
+import sehatinCover from "../assets/figma/project-sehatin-mockup.png";
+import serenityCover from "../assets/figma/project-serenity-cover.png";
+import waowHandsOnCover from "../assets/figma/project-waow-handson-cover.webp";
+import waowHomeworkCover from "../assets/figma/project-waow-homework-cover.webp";
+import portfolioCover from "../assets/figma/project-portfolio-cover.webp";
 
 const projects = [
   {
@@ -29,6 +27,24 @@ const projects = [
     name: "Serenity",
     subtitle: "Mental Health UI Kit",
     cover: serenityCover,
+  },
+  {
+    id: "waowHandsOn",
+    name: "WAOW Hands-On",
+    subtitle: "Mobile Banking UI - Frontend Slicing Practice",
+    cover: waowHandsOnCover,
+  },
+  {
+    id: "waowHomework",
+    name: "WAOW Homework",
+    subtitle: "Game News Website - Frontend Slicing Practice",
+    cover: waowHomeworkCover,
+  },
+  {
+    id: "portfolioVivi",
+    name: "Personal Portfolio",
+    subtitle: "UI/UX Portfolio Website",
+    cover: portfolioCover,
   },
 ];
 

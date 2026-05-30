@@ -1,14 +1,10 @@
 import { useParams, useNavigate } from "react-router-dom";
-
-const sehatinMockup =
-  "https://www.figma.com/api/mcp/asset/2c21bb18-7647-49a1-b8c5-c5fe6d9c1809";
-const skulsikMockup =
-  "https://www.figma.com/api/mcp/asset/f8f551ed-7c05-4dd7-928a-7117fc60ee5a";
-const serenityCover =
-  "https://www.figma.com/api/mcp/asset/6992c31e-96d1-457c-90fb-615e7fd9a38c";
-const waowHandsOnCover = "";
-const waowHomeworkCover = "";
-const portfolioCover = "";
+import sehatinMockup from "../assets/figma/project-sehatin-mockup.png";
+import skulsikMockup from "../assets/figma/project-skulsik-mockup.png";
+import serenityCover from "../assets/figma/project-serenity-cover.png";
+import waowHandsOnCover from "../assets/figma/project-waow-handson-cover.webp";
+import waowHomeworkCover from "../assets/figma/project-waow-homework-cover.webp";
+import portfolioCover from "../assets/figma/project-portfolio-cover.webp";
 
 type Tag = { label: string };
 

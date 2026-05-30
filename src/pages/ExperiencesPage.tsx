@@ -1,9 +1,9 @@
 import Navbar from "../components/Navbar";
-
-const bgArt =
-  "https://www.figma.com/api/mcp/asset/0a7acb15-c152-473f-a54f-a644f8f0e1bf";
-const companyLogo =
-  "https://www.figma.com/api/mcp/asset/9c318c12-1f27-43d6-a739-174dc7475ec5";
+import bgArt from "../assets/figma/shared-bg-art.jpg";
+import telkomUniversityLogo from "../assets/figma/logo-telkom-university.png";
+import uiuxCompetitionLogo from "../assets/figma/logo-uiux-competition.png";
+import coderLogo from "../assets/figma/logo-coder.jpg";
+import dimataLogo from "../assets/figma/logo-dimata.jpg";
 
 const experiences = [
   {
@@ -24,7 +24,7 @@ const experiences = [
       "UX Evaluation",
       "Accessibility",
     ],
-    logo: companyLogo,
+    logo: telkomUniversityLogo,
   },
   {
     id: 2,
@@ -46,7 +46,7 @@ const experiences = [
       "Usability Testing",
       "User Centered Design",
     ],
-    logo: companyLogo,
+    logo: uiuxCompetitionLogo,
   },
   {
     id: 3,
@@ -59,7 +59,7 @@ const experiences = [
       "Collaborated with event teams to prepare technical learning materials and workshop activities.",
     ],
     skills: ["Figma", "UI Design", "Prototyping", "Website Design"],
-    logo: companyLogo,
+    logo: coderLogo,
   },
   {
     id: 4,
@@ -80,7 +80,7 @@ const experiences = [
       "Front End Dev",
       "Team Collaboration",
     ],
-    logo: companyLogo,
+    logo: dimataLogo,
   },
 ];
 
