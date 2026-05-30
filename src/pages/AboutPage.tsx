@@ -152,12 +152,12 @@ export default function AboutPage() {
                 href="https://www.instagram.com/viin.ri/"
                 target="_blank"
                 rel="noreferrer"
-                className="hover:-translate-y-1 transition-transform bg-[#e115bf] rounded-full p-2 flex items-center justify-center w-8 h-8 xl:w-[40px] xl:h-[40px]"
+                className="hover:-translate-y-1 transition-transform"
               >
                 <img
                   src={instagramIcon}
                   alt="Instagram"
-                  className="w-full h-full object-contain"
+                  className="w-8 h-8 xl:w-[40px] xl:h-[40px] object-contain"
                 />
               </a>
               <a
