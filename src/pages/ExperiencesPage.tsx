@@ -8,6 +8,61 @@ const companyLogo =
 const experiences = [
   {
     id: 1,
+    title: "Research Assistant",
+    company: "Telkom University",
+    period: "2025 - Present",
+    description: [
+      "Assisted in a lecturer led research project focused on evaluating the usability of the “Jatim Bissa” job portal for people with disabilities.",
+      "Conducted usability testing sessions directly with users at the East Java Department of Manpower (Disnaker Jatim).",
+      "Applied usability evaluation methods including Task Scenario Testing, Extra Cognitive Load (ECL), and System Usability Scale (SUS).",
+      "Analyzed user behavior and feedback to identify usability issues.",
+    ],
+    skills: [
+      "Usability Testing",
+      "UX Research",
+      "System Usability Scale",
+      "UX Evaluation",
+      "Accessibility",
+    ],
+    logo: companyLogo,
+  },
+  {
+    id: 2,
+    title: "UI/UX Designer",
+    company: "Competition Participant",
+    period: "2024 – 2025",
+    description: [
+      "Participated in two national-level UI/UX competitions focused on solving real world problems",
+      "Designed a mobile application for school discovery featuring school search, location based recommendations, comparison tools, maps integration, and 3D school previews",
+      "Developed a mobile application concept focused on adolescent mental health monitoring and emotional well being.",
+      "Created wireframes and interactive prototypes using Figma while applying usability and user-centered design principles.",
+    ],
+    skills: [
+      "Figma",
+      "UI Design",
+      "UX Research",
+      "Wireframing",
+      "Prototyping",
+      "Usability Testing",
+      "User Centered Design",
+    ],
+    logo: companyLogo,
+  },
+  {
+    id: 3,
+    title: "Event Division",
+    company: "UKM CODER Telkom University",
+    period: "2024 - 2025",
+    description: [
+      "Contributed to WAOW Season 5 workshop activities focused on Golang and React JS learning programs.",
+      "Designed website slicing tasks and interface layouts using Figma to support frontend development practices.",
+      "Collaborated with event teams to prepare technical learning materials and workshop activities.",
+    ],
+    skills: ["Figma", "UI Design", "Prototyping", "Website Design"],
+    logo: companyLogo,
+  },
+  {
+    id: 4,
     title: "Trainee Programmer",
     company: "PT Dimata Sora Jayate",
     period: "Des 2021 – Jun 2022",
@@ -24,27 +79,6 @@ const experiences = [
       "Mobile App Dev",
       "Front End Dev",
       "Team Collaboration",
-    ],
-    logo: companyLogo,
-  },
-  {
-    id: 2,
-    title: "UI/UX Designer",
-    company: "Freelance",
-    period: "2022 – Present",
-    description: [
-      "Designed end-to-end UI/UX for multiple mobile applications, conducting user research and usability testing to validate design decisions.",
-      "Created wireframes, prototypes, and high-fidelity designs using Figma.",
-      "Applied design thinking methodology to solve complex user problems.",
-      "Delivered design systems and component libraries for consistent product experiences.",
-    ],
-    skills: [
-      "Figma",
-      "UI Design",
-      "UX Research",
-      "Prototyping",
-      "User Testing",
-      "Design Systems",
     ],
     logo: companyLogo,
   },
@@ -67,7 +101,8 @@ export default function ExperiencesPage() {
         {/* Experience cards */}
         <div className="flex flex-col gap-6 lg:gap-8 pb-12">
           {experiences.map((exp, idx) => {
-            const delayClass = idx === 0 ? "delay-100" : idx === 1 ? "delay-200" : "delay-300";
+            const delayClass =
+              idx === 0 ? "delay-100" : idx === 1 ? "delay-200" : "delay-300";
             return (
               <div
                 key={exp.id}
@@ -84,14 +119,19 @@ export default function ExperiencesPage() {
                   </div>
                   <div className="flex-1">
                     <h3 className="font-poppins font-bold text-[22px] sm:text-[26px] text-[#1e1e1e] group-hover:text-primary transition-colors duration-300">
-                      {exp.title} <span className="opacity-60 font-semibold text-[18px] sm:text-[22px] block sm:inline mt-1 sm:mt-0">— {exp.company}</span>
+                      {exp.title}{" "}
+                      <span className="opacity-60 font-semibold text-[18px] sm:text-[22px] block sm:inline mt-1 sm:mt-0">
+                        — {exp.company}
+                      </span>
                     </h3>
                     <p className="font-poppins text-primary font-semibold text-[13px] sm:text-[15px] tracking-wide mb-4 sm:mb-5 mt-1 sm:mt-2 uppercase opacity-90">
                       {exp.period}
                     </p>
                     <ul className="space-y-2.5 font-poppins text-[rgba(30,30,30,0.85)] text-[14px] sm:text-base leading-relaxed list-disc list-outside ml-4 sm:ml-5 marker:text-primary/70">
                       {exp.description.map((line, i) => (
-                        <li key={i} className="pl-1 sm:pl-2">{line}</li>
+                        <li key={i} className="pl-1 sm:pl-2">
+                          {line}
+                        </li>
                       ))}
                     </ul>
                   </div>
